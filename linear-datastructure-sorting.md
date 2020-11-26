@@ -5,3 +5,23 @@ There are lot of sorting algorithms available for linear datastructure (such as 
 * Binary Sort
 * Merge Sort
 * Quick Sort
+## Overview and Comparison
+
+<table>
+  <tr>
+    <th>Binary Sort</th>
+    <th>Merge Sort</th>
+    <th>Quick Sort</th>
+  <tr>
+  <tr>
+    <td>
+      Find the middle element and bisect the data collecton into two separate and iterate the same step until each collection has 2 at max. Then, compare and swap data till it sorted fully.
+    </td>
+    <td>
+      Find the middle element and bisect the data collecton into two separate and iterate the same step until each collection has 2 at max. Then, compare and swap data till it sorted fully.
+    </td> 
+    <td>
+      Find the middle element and bisect the data collecton into two separate and iterate the same step until each collection has 2 at max. Then, compare and swap data till it sorted fully.
+    </td> 
+  </tr>
+</table>
