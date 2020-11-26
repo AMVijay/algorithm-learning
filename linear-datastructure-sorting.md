@@ -2,14 +2,14 @@
 There are lot of sorting algorithms available for linear datastructure (such as List, Array) sorting. In this post, will provide some level of details about each sorting algorithms and comparison
 
 ## Sorting Algorithms
-* Binary Sort
+* Binary Insertion Sort
 * Merge Sort
 * Quick Sort
 ## Overview and Comparison
 
 <table>
   <tr>
-    <th>Binary Sort</th>
+    <th>Binary Insertion Sort</th>
     <th>Merge Sort</th>
     <th>Quick Sort</th>
   <tr>
