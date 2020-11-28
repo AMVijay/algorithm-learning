@@ -14,7 +14,7 @@ There are lot of sorting algorithms available for linear datastructure (such as 
     <th>Quick Sort</th>
   <tr>
   <tr>
-    <td>
+    <td style="vertical-align: top; text-align: left;">
       <div>Steps</div>
       <ul>
         <li>Iterate through each element from the list</li>
@@ -22,14 +22,14 @@ There are lot of sorting algorithms available for linear datastructure (such as 
         <li>Loop through the same steps till reach last element.</li>
       </ul>
     </td>
-    <td>
+    <td style="vertical-align: top; text-align: left;">
       <div>Steps</div>
       <ul>
         <li>Bisect the List into 2 sublist by mid index until each sublist has only one element</li>
         <li>Then, start merging the 2 sublists at a time by creating new one list with smallest and to biggest in the order until all the sublists merged</li>
       </ul>
     </td> 
-    <td>
+    <td style="vertical-align: top; text-align: left;">
       <div>Steps</div>
       <ul>
         <li>Take an index (Ex: End index or mid index) value as partition index</li>
