@@ -5,9 +5,9 @@ There are lot of sorting algorithms available for linear datastructure (such as 
 * Binary Insertion Sort
 * Merge Sort
 * Quick Sort
-## Overview and Comparison
 
-<table>
+## Overview and Comparison
+<table >
   <tr>
     <th>Binary Insertion Sort</th>
     <th>Merge Sort</th>
