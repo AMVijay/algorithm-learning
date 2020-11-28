@@ -15,13 +15,30 @@ There are lot of sorting algorithms available for linear datastructure (such as 
   <tr>
   <tr>
     <td>
-      Find the middle element and bisect the data collecton into two separate and iterate the same step until each collection has 2 at max. Then, compare and swap data till it sorted fully.
+      <div>Steps</div>
+      <ul>
+        <li>Iterate through each element from the list</li>
+        <li>Compare the element value with each of the element in the list until the index of the element value and swap it if element value is smaller than the list value. </li>
+        <li>Loop through the same steps till reach last element.</li>
+      </ul>
     </td>
     <td>
-      Find the middle element and bisect the data collecton into two separate and iterate the same step until each collection has 2 at max. Then, compare and swap data till it sorted fully.
+      <div>Steps</div>
+      <ul>
+        <li>Bisect the List into 2 sublist by mid index until each sublist has only one element</li>
+        <li>Then, take sublist elements, create new merged sublist by comparing the elements from smallest to biggest</li>
+      </ul>
     </td> 
     <td>
-      Find the middle element and bisect the data collecton into two separate and iterate the same step until each collection has 2 at max. Then, compare and swap data till it sorted fully.
+      <div>Steps</div>
+      <ul>
+        <li>Take an index (Ex: End index or mid index) value as partition index</li>
+        <li>Iterate through the list fully till end, compare each element with partition index value. 
+          <ul>
+            <li>if the element value is greater than partition value and index is less than partition index, and move the element to right to partition index</li>
+            <li>if the element value is smaller than partition value and index is greater than partition index, the move the element to left to the partition index</li>  
+          </ul>
+      </ul>
     </td> 
   </tr>
 </table>
