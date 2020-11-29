@@ -33,11 +33,12 @@ There are lot of sorting algorithms available for linear datastructure (such as 
       <div>Steps</div>
       <ul>
         <li>Take an index (Ex: End index or mid index) value as partition index</li>
-        <li>Iterate through the list fully till end, compare each element with partition index value until one of these condition does not occur. 
+        <li>Iterate through the list fully till end, compare each element with partition index value until do below condition step. 
           <ul>
             <li>if the element value is greater than partition value and index is less than partition index, and move the element to right to partition index</li>
             <li>if the element value is smaller than partition value and index is greater than partition index, the move the element to left to the partition index</li>  
           </ul>
+        <li>Perform same steps again in loop with 2 sublists, List 1: start index to partition index -1, List 2: partition index + 1 to end index</li>
       </ul>
     </td> 
   </tr>
@@ -57,7 +58,7 @@ There are lot of sorting algorithms available for linear datastructure (such as 
     <td>
       <ul>
         <li>Best Case Time Complexity : O(n)</li>
-        <li>Worst Case Time Complexity : O(n)</li>
+        <li>Worst Case Time Complexity : O(n^2)</li>
       </ul>
     </td>
   </tr>
